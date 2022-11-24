@@ -1,0 +1,198 @@
+*{
+    box-sizing: border-box;
+}
+
+.ha-navbar{
+    position: fixed;
+    width: 100%; 
+    z-index: 10;
+}
+
+/*
+********************************
+********* SlideLeft ************
+******************************** 
+*/
+.ha-container-slide{
+    position: relative;
+    width:170px;
+    background-color: #1a1c27;
+    height: 1000px;
+    float: left;
+}
+
+.slideLeft{
+    width:170px;
+    background-color:#1a1c27;
+    position:fixed;
+    left:0px;
+    height:100%;
+    color:#fff;
+    top: 60px;
+}
+.slideLeft ul{
+    list-style: none;
+    line-height: 40px;
+    font-weight: bold;
+}
+.slideLeft ul li{
+    position: relative;
+    left: -40px;
+    width: 170px;
+    margin: 5px 0px;
+    padding: 7px;
+    cursor: pointer;
+}
+.slideLeft ul li:hover{
+    background-color: #222d6b;
+}
+.slideLeft ul li a{
+    position: relative;
+    left: 5px;
+    top: 2px;
+    color: #fff;
+}
+.slideLeft ul li a:hover{
+    text-decoration: none;
+}
+
+
+
+/*
+******************************************
+********** grid sustem content ***********
+****************************************** 
+*/
+
+
+
+.ha-admin-container{
+    position: relative;
+    top: 56px;
+    width: 86.5%;
+    background-color: #EEE;
+    float: left;
+    padding: 15px;
+}
+
+.statistic{
+    background-color: #fff;
+    padding: 8px;
+    border: 5px;
+}
+.statistic span{
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    left: 1px;
+    bottom: 11px;
+}
+/*
+    **************************************
+    **** ADD ARTICLE
+    ************************************** 
+*/
+
+.add-articl{
+    padding: 15px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+.add-articl .add-btn button{
+    margin: 5px 10px;
+}
+.add-btn a{
+    color: #fff !important;
+}
+.add-btn a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+/*
+    **************************************
+    **** Showing user
+    ************************************** 
+*/
+.showing-users{
+    padding: 15px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+.showing-users table button{
+    width: 70px;
+    padding: 3px 10px;
+}
+
+/*      ****             newarticle           ***                */
+
+/*
+******************************************
+********** grid sustem content ***********
+******************************************
+*/
+
+.new-articl{
+    padding: 15px;
+}
+.new-articl center h2{
+    color: #343a40;
+    font-weight: bold;
+}
+
+.new-articl-form{
+    margin: 10px auto;
+    width: 80%;
+    position: relative;
+    background-color: #fff;
+    padding: 15px;
+}
+.new-articl-form > *{
+    display: block;
+
+}
+
+.new-articl-form input,.new-articl-form textarea{
+    width: 90%;
+    position: relative;
+    left: 10px;
+    padding: 5px;
+    outline: none;
+}
+.new-articl-form label{
+    font-weight: bold;
+}
+.new-articl-form select{
+    width: fit-content;
+    padding: 5px;
+    left: 10px;
+    position: relative;
+}
+
+.new-articl-form .newarticle-btn{
+    margin: 10px auto;
+    width: 200px;
+}
+
+
+/*
+**************************************
+**** Sent email to users
+************************************** 
+*/
+
+.ha-sent-email{
+    margin: 10px auto;
+    padding: 15px;
+    background-color: white;
+}
+
+.ha-sent-email span{
+    margin-right: 30px;
+}
+
+.ha-sent-email a:hover{
+    text-decoration: none;
+}

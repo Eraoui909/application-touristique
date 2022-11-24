@@ -1,0 +1,624 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+a:hover {
+  text-decoration: none;
+}
+.ha-slider-container {
+  padding: 5px;
+  position: relative;
+  width: 100%;
+  height: 700px;
+  background-color: #0688dd;
+  background-image: url("../svgs/morocco/pic5.jpg");
+  background-repeat: no-repeat;
+  /* background-position: 90% 100%; */
+  background-size: 100% 120%;
+  overflow: hidden;
+}
+.ha-navbar {
+  width: 100%;
+  margin: 0px;
+  background-color: transparent;
+  padding: 10px 30px;
+  font-weight: bold;
+  color: #fff;
+  z-index: 10000;
+  transition-duration: 1s;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.ha-navbar a {
+  color: white;
+}
+.ha-navbar-title {
+  font-size: 25px;
+}
+.ha-navbar-title strong {
+  font-size: 30px;
+  color: rgb(104, 168, 74) !important;
+}
+.ha-navbar-title span {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  left: 4px;
+}
+.ha-navbar .ha-join a {
+  padding: 2px 0px;
+  border: 1px solid;
+  border-radius: 3px;
+  top: 5px;
+  position: relative;
+  width: 62px;
+  text-align: center;
+}
+.ha-navbar .ha-right-list li {
+  margin: 0px 2px;
+}
+
+.ha-slider-form {
+  position: relative;
+  top: 150px;
+  left: 50px;
+  width: 45%;
+  color: #fff;
+}
+
+.ha-form {
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 3px;
+  overflow: hidden;
+  margin: 30px 0px;
+}
+.ha-form button {
+  position: absolute;
+  right: 0px;
+  width: 15%;
+  top: 0px;
+  padding: 10px;
+  border: none;
+  background-color: #19a463;
+  color: #fff;
+  font-weight: bold;
+}
+.ha-form input {
+  width: 80%;
+  position: relative;
+  left: 10px;
+  border: none;
+  outline: none;
+}
+.ha-form svg {
+  position: relative;
+  top: -2px;
+}
+.ha-form h1 {
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.ha-slider-form article {
+  position: relative;
+  margin-top: 40px;
+}
+.ha-slider-form article span {
+  margin: 0px 3px;
+  border-radius: 7px;
+  padding: 2px 5px;
+  border: 1px solid white;
+}
+
+@media only screen and (max-width: 1030px) {
+  .ha-slider-form {
+    position: relative;
+    width: 85%;
+    z-index: 11;
+  }
+  .ha-slider-popup {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0.4;
+    z-index: 11;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .ha-slider-container {
+    height: 500px;
+  }
+  .ha-slider-form {
+    position: relative;
+    top: 30px;
+    left: 20px;
+    width: 90%;
+    color: #fff;
+    padding: 20px 5px;
+  }
+  .ha-slider-form h1 {
+    font-size: 28px;
+  }
+  .ha-slider-form .ha-form button {
+    display: none;
+  }
+}
+
+/*
+  *********************************************************
+  *************       Footer     **************************
+  *********************************************************
+  */
+
+.ha-footer-container {
+  position: relative;
+  padding: 30px;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  margin-top: 10px;
+  color: gray;
+}
+
+.ha-footer-container .ha-footer {
+  position: relative;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  border-bottom: 1px solid gray;
+}
+
+.ha-footer-container .ha-footer li {
+  list-style: none;
+  position: relative;
+  right: 35px;
+}
+
+.ha-footer-footer img {
+  width: 20px;
+  height: 20px;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .ha-slid-1 {
+    position: relative;
+    left: -64px;
+    margin: 5px 10px;
+  }
+  .ha-slid-1 h4 {
+    font-size: 20px;
+  }
+}
+
+/*
+  *********************************************************
+  *************       Contact Us     **************************
+  *********************************************************
+*/
+
+.ha-contact-us-container {
+  background-image: linear-gradient(
+    to left,
+    #fff,
+    aliceblue,
+    aliceblue,
+    aliceblue,
+    aliceblue,
+    aliceblue,
+    #fff
+  );
+}
+
+/*
+  *********************************************************
+  *************       Partners   **************************
+  *********************************************************
+*/
+
+.ha-partner {
+  position: relative;
+  width: 100%;
+  background-color: #eee;
+  padding: 10px;
+}
+
+.ha-partner ul {
+  position: relative;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0px;
+}
+
+.ha-partner ul li {
+  list-style: none;
+  color: #000 !important;
+}
+.ha-partner ul li a {
+  color: rgb(179, 179, 179);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* *********************************
+********* Le maroc   r***********
+********************************* */
+
+.ha-maroc {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.ha-maroc > * {
+  width: 50%;
+}
+
+/*
+  *********************************************************
+  *************       News Letter   ***********************
+  *********************************************************
+*/
+
+.newsletter {
+  position: relative;
+}
+
+.ha-newsletter-title {
+  margin: 10px;
+  padding: 15px;
+}
+.ha-newsletter-title h1 {
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.ha-newsletter {
+  padding: 15px;
+  background-color: #fff;
+  width: 80%;
+  margin: 10px auto;
+}
+.ha-newsletter:hover .ha-news-title{
+  color: #19e295;
+}
+
+.ha-news-img{
+  position: relative;
+}
+.ha-news-img .ha-news-badge{
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  padding: 0px 3px;
+  border-radius: 5px;
+  background-color: #1cc383;
+}
+
+
+.ha-news-date{
+  color: gray;
+  font-size: 13px;
+}
+.ha-news-read-more{
+  border: 1px solid gray;
+  padding: 5px;
+  width: fit-content;
+  cursor: pointer;
+  transition-duration: 1s;
+  background-color: transparent;
+}
+.ha-news-read-more:hover{
+  background-color: #19e295;
+}
+.ha-news-all{
+  padding: 5px;
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  margin: 10px;
+}
+.ha-news-all a{
+  font-size: 20px;
+}
+
+/*
+  *********************************************************
+  *************        Rating       ***********************
+  *********************************************************
+*/
+
+.ha-rating {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.ha-rating .ha-rating-title {
+  position: relative;
+  margin: 10px auto;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.ha-rating .ha-rating-start {
+  margin: 10px auto;
+  padding: 5px;
+}
+
+.ha-rating-comnt-container {
+  position: relative;
+  height: 430px;
+  overflow: auto;
+}
+.ha-rating-comnt-container::-webkit-scrollbar {
+  width: 5px;
+}
+.ha-rating-comnt-container::-webkit-scrollbar-thumb {
+  background-color: grey;
+}
+.ha-rating-popup {
+  position: absolute;
+  z-index: 100001;
+  width: 100%;
+  background-color: black;
+  opacity: 0.8;
+}
+.ha-rating-popup .close {
+  position: fixed;
+  right: 40px;
+  top: 30px;
+  color: #fff;
+  font-size: 20px;
+  z-index: 100002;
+  padding: 5px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  cursor: pointer;
+}
+.pop-up-container {
+  background-color: #fff;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100002;
+  opacity: 1;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+}
+.pop-up-container img {
+  background-color: #fff;
+}
+.pop-up-container textarea {
+  background-color: #e2e2e2;
+  height: 150px;
+  border-radius: 5px;
+}
+.pop-up-container input {
+  margin: 5px auto;
+  padding: 5px;
+}
+.pop-up-container p {
+  font-weight: bold;
+}
+.active {
+  display: none;
+}
+
+.ha-rating-comments {
+  width: 100%;
+  position: relative;
+  text-align: left;
+  padding: 15px;
+  margin: 10px 0px;
+  overflow: auto;
+  width: 50%;
+  float: left;
+  background-image: linear-gradient(to LEFT, #fff, rgb(245, 245, 245), #fff);
+}
+
+.ha-rating-stars-date span {
+  position: absolute;
+  top: 85px;
+  left: 123px;
+  font-size: 14px;
+  color: gray;
+}
+.ha-rating-content {
+  width: 60%;
+  word-wrap: break-word;
+}
+
+@media only screen and (max-width: 600px) {
+  .ha-rating-comments {
+    width: 100%;
+    position: relative;
+    text-align: left;
+    padding: 15px;
+    margin: 10px 0px;
+    overflow: auto;
+  }
+}
+
+.pop-up-cmnt {
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  left: 0px;
+  right: 0px;
+  background-color: rgb(255, 255, 255);
+  opacity: 0;
+}
+
+
+
+
+
+
+
+/*
+  *********************************************************
+  *************      News Letter page  ********************
+  *********************************************************
+*/
+
+
+.ha-news-slide{
+  width: 75%;
+  margin: 10px auto;
+}
+
+.ha-news-slide-title{
+  position: absolute;
+  width: 85%;
+  color: white;
+  bottom: 50px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.253);
+  padding: 5px;
+}
+
+.ha-news-slide-cat{
+  position: absolute;
+  left: 10px;
+  bottom: -40px;
+  padding: 3px 8px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+
+.ha-news-slide-breaking {
+    padding: 5px 10px;
+    width: 100%;
+    position: absolute;
+    top: -225px;
+    text-align: center;
+    left: -275px;
+    transform: rotate(-35deg);
+}
+
+
+
+/* popular section in newsletter */
+
+.ha-news-populer{
+   display: flex;
+   width: 100%;
+   margin: 20px 10px;
+   justify-content: space-between;
+   padding: 10px;
+   overflow: auto;
+}
+
+.ha-news-populer-article{
+  width: 230px;
+  margin: 0px 5px;
+  box-shadow: 0px 0px 9px -2px #9E9E9E;
+}
+
+.article-popular-img{
+  background-color: #1cc383;
+  overflow: hidden;
+  position: relative;
+}
+.article-popular-badge{
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  padding: 3px;
+}
+
+.article-popular-title{
+  height: 80px ;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.article-popular-date{
+  color: rgb(196, 196, 196);
+}
+
+.article-popular-readmore{
+  margin-top: 5px;
+}
+
+
+/*
+  *********************************************************
+  *************        News.php      **********************
+  *********************************************************
+*/
+
+.ha-article-cotainer{
+  padding: 15px;
+  width: 80%;
+  margin: 20px auto;
+  position: relative;
+}
+
+.ha-article-title{
+  color: gray;
+  margin-bottom: 20px ;
+}
+
+.ha-article-image{
+  width: 100%;
+}
+
+.ha-article-date-category{
+  margin: 20px;
+}
+
+.ha-article-content{
+  width: 96%;
+  margin: 5px auto;
+}
+
+.ha-article-return{
+  margin: 10px auto;
+  width: fit-content;
+}
+.ha-article-return a{
+  color: #0663dd;
+}
+
+
+/*
+  *********************************************************
+  *************         Moi.php      **********************
+  *********************************************************
+*/
+
+.ha-moi {
+  padding: 15px;
+  position: relative;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px auto;
+}
+
+.ha-moi-info{
+  border-right: 2px solid gray;
+  padding-right: 120px;
+}
+

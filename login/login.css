@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+
+.active{
+    display: none;
+}
+
+
+.ha-title{
+    background-color: #343A40;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+.ha-title a{
+    color: white;
+  }
+  .ha-navbar-title{
+    font-size: 25px;
+  }
+  .ha-navbar-title strong{
+    font-size: 30px;
+    color: rgb(104, 168, 74) !important;
+    
+  }
+  .ha-navbar-title span{
+    font-size: 30px;
+    color: rgb(255, 255, 255) ;
+    position: relative;
+    left: 4px;
+  }
+
+.login-container{
+    position: relative;
+    width: 80%;
+    margin: 100px auto;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+
+.login-container .form-signin{
+    width: 50%;
+    margin: 10px auto;
+}
+
+.login-choic{
+    position: relative;
+    margin: 10px auto;
+    width: 50%;
+    text-align: center;
+    top: 95px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.login-choic span{
+    width: 40%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px){
+    .login-container .form-signin {
+        width: 100%;
+        margin: 10px auto;
+    }
+}
+
+.ha-form-sign input{
+    margin: 10px 0px;
+}
